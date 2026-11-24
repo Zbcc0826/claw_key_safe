@@ -1,5 +1,9 @@
 # claw_key_safe
 
+Redacts API keys in the OpenClaw agent message layer. Matched key strings in user-visible replies are replaced with a custom string. Runtime secret values are left unchanged.
+
+# claw_key_safe
+
 在 OpenClaw 的消息输出层对常见 API key / token / secret 做文本脱敏，只影响**用户可见消息**，不会修改运行时真实密钥值。
 
 ## 特性
